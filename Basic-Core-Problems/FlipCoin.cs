@@ -30,6 +30,7 @@ namespace Basic_Core_Problems
                     percentage = (tailCount / num) * 100;
                     Console.WriteLine("Percentage of Heads vs Tails is: " + percentage);
                 }
+
             }
         }
     }
