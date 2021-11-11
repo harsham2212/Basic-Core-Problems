@@ -15,4 +15,5 @@ namespace Basic_Core_Problems
                 Console.WriteLine("2^{0} " + " " + "= {1}", i, Math.Pow(2, i));
             }
         }
+    }
 }

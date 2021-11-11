@@ -27,6 +27,10 @@ namespace Basic_Core_Problems
                         store.Power();
                         break;
                     case 4:
+                        HarmonicNum sum = new HarmonicNum();
+                        sum.Harmonic();
+                        break;
+                    case 5:
                         flag = false;
                         break;
                 }
