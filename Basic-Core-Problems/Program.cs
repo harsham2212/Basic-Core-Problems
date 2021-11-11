@@ -7,7 +7,7 @@ namespace Basic_Core_Problems
         static void Main(string[] args)
         {
             Console.WriteLine("Basic Core Problems /n");
-            Console.WriteLine("Enter the number \n 1. Flip Coin \n 2. Leap Year \n 3. Exit");
+            Console.WriteLine("Enter the number \n 1. Flip Coin \n 2. Leap Year \n 3.Power of Two 4. Exit");
             int option = Convert.ToInt32(Console.ReadLine());
             bool flag = true;
             while (flag)
@@ -23,6 +23,10 @@ namespace Basic_Core_Problems
                         leap.Check();
                         break;
                     case 3:
+                        PowerofTwo res = new PowerofTwo();
+                        res.Power();
+                        break;
+                    case 4:
                         flag = false;
                         break;
                 }
