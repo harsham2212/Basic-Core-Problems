@@ -23,8 +23,8 @@ namespace Basic_Core_Problems
                         leap.Check();
                         break;
                     case 3:
-                        PowerofTwo res = new PowerofTwo();
-                        res.Power();
+                        PowerofTwo store = new PowerofTwo();
+                        store.Power();
                         break;
                     case 4:
                         flag = false;
