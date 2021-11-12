@@ -7,7 +7,7 @@ namespace Basic_Core_Problems
         static void Main(string[] args)
         {
             Console.WriteLine("Basic Core Problems /n");
-            Console.WriteLine("Enter the number \n 1. Flip Coin \n 2. Leap Year \n 3.Power of Two \n 4.Harmonic Number \n 5.Factors \n 6.Quotient and Remainder \n 7. Swap Number \n 8. Even_Odd \n 9.Vowel_Consonent \n 10. Exit");
+            Console.WriteLine("Enter the number \n 1. Flip Coin \n 2. Leap Year \n 3.Power of Two \n 4.Harmonic Number \n 5.Factors \n 6.Quotient and Remainder \n 7. Swap Number \n 8. Even_Odd \n 9.Vowel_Consonent \n 10.Largest In 3 Numbers \n 11. Exit");
             int option = Convert.ToInt32(Console.ReadLine());
             bool flag = true;
             while (flag)
@@ -51,6 +51,10 @@ namespace Basic_Core_Problems
                         character.VowelsConsonant();
                         break;
                     case 10:
+                        LargestInThreeNumber digit = new LargestInThreeNumber();
+                        digit.CheckNumbers();
+                        break;
+                    case 11:
                         flag = false;
                         break;
                 }
